@@ -11,16 +11,15 @@ body {
 
 section {
     width: 400px;
-    height: 550px;
-    /* margin: auto; */
+    height: 600px;
     background-color: white;
     border-radius: 15px;
     text-align: center;
-    /* margin-top: 100px; */
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -275px 0 0 -200px;
+    margin: -300px 0 0 -200px;
+    box-shadow: 0 0 20px 10px rgb(221, 217, 247);
 }
 
 .container {
@@ -28,7 +27,7 @@ section {
     width: 300px;
     background-color: aliceblue;
     display: flex;
-    margin: auto;
+    margin: 15px auto;
     border-radius: 10px;
     padding: 7px 20px;
     justify-content: space-between;
@@ -48,19 +47,25 @@ section {
 p {
     width: 300px;
     margin: 10px auto;
-    color: gray;
+    color: hsl(224, 23%, 55%);
     font-weight: 500;
 }
 
 button {
     width: 300px;
     height: 40px;
-    margin: 20px auto;
+    margin: 25px auto;
     background-color: hsl(245, 75%, 52%);
     border: none;
     border-radius: 10px;
     font-weight: 700;
     color: white;
+    box-shadow: 0 15px 10px 2px hsl(225, 100%, 94%);
+}
+
+button:hover {
+    background-color: hsl(225, 100%, 66%);
+    cursor: pointer;
 }
 
 #hero {
@@ -76,4 +81,27 @@ button {
 
 #change {
     color: hsl(245, 75%, 52%);
+}
+
+#change:hover {
+    color: hsl(225, 64%, 57%);
+    text-decoration: none;
+}
+
+.dark {
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+a {
+    font-weight: 700;
 }
