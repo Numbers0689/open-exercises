@@ -4,14 +4,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
 }
 
 section {
     width: 400px;
-    height: 70vh;
-    margin: auto;
+    height: 550px;
+    /* margin: auto; */
     background-color: white;
     border-radius: 15px;
+    text-align: center;
+    /* margin-top: 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -275px 0 0 -200px;
 }
 
 .container {
@@ -21,10 +30,50 @@ section {
     display: flex;
     margin: auto;
     border-radius: 10px;
-    justify-content: space-around;
+    padding: 7px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
 }
 
 #icon {
     height: 40px;
     width: 40px;
+}
+
+.weighted {
+    font-weight: 700;
+}
+
+p {
+    width: 300px;
+    margin: 10px auto;
+    color: gray;
+    font-weight: 500;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+#hero {
+    object-fit: cover;
+    width: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+#con  {
+    display: flex;
+    gap: 20px;
+}
+
+#change {
+    color: hsl(245, 75%, 52%);
 }
