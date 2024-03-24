@@ -1,0 +1,30 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+section {
+    width: 400px;
+    height: 70vh;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.container {
+    height: 70px;
+    width: 300px;
+    background-color: aliceblue;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+#icon {
+    height: 40px;
+    width: 40px;
+}
